@@ -1916,7 +1916,7 @@
                 document.getElementById('modalPrize').textContent = winningValue;
                 document.getElementById('modalUserId').textContent = `User ID: ${userIdValue}`;
                 
-                claimButton.href = CLAIM_LINK_URL + '?prize=' + winningValue + '&userid=' + userIdValue;
+                claimButton.href = CLAIM_LINK_URL;
                 
                 // Trigger effects based on tier
                 if (winningTier === 'diamond' || winningTier === 'gold') {
@@ -1971,6 +1971,7 @@
 
 </body>
 </html>
+
 
 
 
